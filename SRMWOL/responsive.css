@@ -1,0 +1,48 @@
+/* Only responsive for Mobile Devices */
+@media only screen and (max-width:670px){
+    body {
+        max-width: 480px;
+        
+    }
+    header {
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+    }
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    .main {
+        width: 480px;
+        max-width: 400px;
+        margin: auto;
+        font-size: smaller;
+    }
+    .title-area h1 {
+        font-size:1.5rem;
+    }
+    .about {
+        max-width: 480px;
+    }
+    .about h1 {
+        font-size: 2rem;
+        text-align: left;
+    }
+    .main p {
+        padding-left: 0;
+    }
+    .lessons {
+        
+        display: none;
+    }
+    .HTML,.CSS,.JS {
+        flex-direction: column;
+        font-size: 1rem;
+    }
+}
